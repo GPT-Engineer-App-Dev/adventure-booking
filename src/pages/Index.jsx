@@ -13,6 +13,9 @@ const Index = () => {
         <Button as={Link} to="/book" colorScheme="teal" size="lg" mt={6}>
           Start Booking
         </Button>
+        <Button as={Link} to="/search-flights" colorScheme="teal" size="lg" mt={6}>
+          Search Flights
+        </Button>
       </VStack>
     </Container>
   );
